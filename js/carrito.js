@@ -1,8 +1,8 @@
 // SELECCIÓN DE ELEMENTOS
-const productsEl = document.querySelector(".products");
-const cartItemsEl = document.querySelector(".cart-items");
-const subtotalEl = document.querySelector(".subtotal");
-const totalItemsInCartEl = document.querySelector(".total-items-in-cart");
+const productosDelStore = document.querySelector(".products");
+const productosQueSeAgreganAlCarrito = document.querySelector(".cart-items");
+const subtotalDeProductos = document.querySelector(".subtotal");
+const cantidadDeProductosSeleccionados = document.querySelector(".total-items-in-cart");
 
 
 
@@ -10,7 +10,7 @@ const totalItemsInCartEl = document.querySelector(".total-items-in-cart");
 // FUNCIÓN QUE GENERA LOS PRODUCTOS EN EL DOM
 function renderProducts() {
   products.forEach((product) => {
-    productsEl.innerHTML += `
+    productosDelStore.innerHTML += `
   <div class="card">
   <img class="card-img-top" src="${product.image}" alt="${product.name}">
   <div class="card-body">
@@ -35,7 +35,7 @@ updateCart();
 
 
 
-// ADD TO CART
+// AGREGA AL CARRITO
 function addToCart(id) {
   // CHEQUEA SI EL PRODUCTO YA EXISTE EN EL CARRITO
   if (cart.some((item) => item.id === id)) {
@@ -77,8 +77,8 @@ function renderSubtotal() {
     totalItems += item.numberOfUnits;
   });
 
-  subtotalEl.innerHTML = `Subtotal (${totalItems} items): £ ${totalPrice.toFixed(2)}`;
-  totalItemsInCartEl.innerHTML = totalItems;
+  subtotalDeProductos.innerHTML = `Subtotal (${totalItems} items): £ ${totalPrice.toFixed(2)}`;
+  cantidadDeProductosSeleccionados.innerHTML = totalItems;
 }
 
 
@@ -86,9 +86,9 @@ function renderSubtotal() {
 
 // PRODUCTOS A COMPRAR
 function renderCartItems() {
-  cartItemsEl.innerHTML = "";
+  productosQueSeAgreganAlCarrito.innerHTML = "";
   cart.forEach((item) => {
-    cartItemsEl.innerHTML += `
+    productosQueSeAgreganAlCarrito.innerHTML += `
         <div class="cart-item">
             <div class="item-info" onclick="removeItemFromCart(${item.id})">
                 <img src="${item.image}" alt="${item.name}">

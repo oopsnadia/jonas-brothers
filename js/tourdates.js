@@ -1,3 +1,6 @@
+// FUNCIÓN QUE GENERA/CREA LA LISTA DE FECHAS EN EL DOM
+//EN LA PÁGINA "TOURDATES.HTML"
+
 const fechasDelTour = document.querySelector(".tourdates__tbody");
 
 function renderTourDates() {
