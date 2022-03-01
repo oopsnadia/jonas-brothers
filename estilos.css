@@ -1290,24 +1290,7 @@ h1, .the-brothers__title {
   margin-right: 15px;
 }
 
-@media only screen and (min-width: 1500px) {
-  .news__title {
-    font-size: 26px;
-  }
-
-  .news__text {
-    font-size: 22px;
-  }
-}
 @media only screen and (min-width: 1281px) {
-  .carrusel {
-    height: auto;
-  }
-
-  .news {
-    margin: 0 auto 50px auto;
-  }
-
   .disc__contenedor,
 .disc__contenedor2 {
     height: auto;
@@ -1327,10 +1310,6 @@ h1, .the-brothers__title {
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
-  .carrusel {
-    height: auto;
-  }
-
   .contenedor__imagenes {
     justify-content: center;
     align-items: center;
@@ -1345,15 +1324,6 @@ h1, .the-brothers__title {
     margin: 10px;
   }
 
-  .video__individual {
-    width: 45%;
-    margin: 10px;
-  }
-
-  .video__individual--title {
-    padding: 10px;
-  }
-
   .disc__contenedor,
 .disc__contenedor2 {
     height: auto;
@@ -1365,26 +1335,6 @@ h1, .the-brothers__title {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .carrusel {
-    width: 100%;
-    height: auto;
-  }
-
-  .news {
-    padding: 2rem;
-    flex-direction: column;
-  }
-
-  .news__info {
-    padding-right: 0;
-  }
-
-  .news__img {
-    min-width: 100%;
-    max-width: 100%;
-    padding: 0;
-  }
-
   .buy-tickets .btn {
     width: 60%;
   }
@@ -1401,15 +1351,6 @@ h1, .the-brothers__title {
     width: 28%;
     padding: 10px;
     margin: 10px;
-  }
-
-  .video__individual {
-    width: 100%;
-    margin: 20px;
-  }
-
-  .video__individual--title {
-    padding: 20px;
   }
 
   .disc__contenedor,
@@ -1472,27 +1413,6 @@ h1, .the-brothers__title {
     padding-top: 10px;
   }
 
-  .carrusel {
-    padding: 20px;
-    width: 100%;
-    height: auto;
-  }
-
-  .news {
-    padding: 2rem;
-    flex-direction: column;
-  }
-
-  .news__info {
-    padding-right: 0;
-  }
-
-  .news__img {
-    min-width: 100%;
-    max-width: 100%;
-    padding: 0;
-  }
-
   .buy-tickets .btn {
     width: 80%;
   }
@@ -1504,29 +1424,6 @@ h1, .the-brothers__title {
   #table {
     width: 100%;
     font-size: 15px;
-  }
-
-  .gallery__contenedor {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .gallery__contenedor--individual:nth-child(8) {
-    grid-column: span 3;
-    grid-row: span 1;
-  }
-
-  .video__individual {
-    width: 100%;
-    margin: 20px;
-  }
-
-  .video__individual2 {
-    width: 100%;
-    margin: 10px;
-  }
-
-  .video__individual--title {
-    padding: 10px;
   }
 
   .disc__contenedor,
@@ -1661,30 +1558,6 @@ h1, .the-brothers__title {
     padding-top: 10px;
   }
 
-  .carrusel {
-    padding: 20px;
-    width: 100%;
-    height: auto;
-  }
-
-  .news {
-    padding: 2rem;
-    flex-direction: column;
-  }
-
-  .news__img {
-    display: none;
-  }
-
-  .news__info {
-    margin-top: -100px;
-    padding-right: 0;
-  }
-
-  .news__text {
-    text-align: center;
-  }
-
   .buy-tickets .btn {
     width: 100%;
   }
@@ -1718,31 +1591,6 @@ h1, .the-brothers__title {
   .table .btn {
     font-weight: none;
     font-size: 10px;
-  }
-
-  .gallery__contenedor {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery__contenedor--individual:nth-child(n+1) {
-    grid-column: span 1;
-    grid-row: span 1;
-  }
-
-  .video__individual {
-    width: 100%;
-    height: auto;
-    margin: 10px;
-  }
-
-  .video__individual2 {
-    width: 100%;
-    height: auto;
-    margin: 10px;
-  }
-
-  .video__individual--title {
-    padding: 10px;
   }
 
   .disc__contenedor,

@@ -1,21 +1,5 @@
-@media only screen and (min-width: 1500px) {
-  .news__title {
-    font-size: 26px;
-  }
-
-  .news__text {
-    font-size: 22px;
-  }
-}
-
 @media only screen and (min-width: 1281px) {
-  .carrusel {
-    height: auto;
-  }
 
-  .news {
-    margin: 0 auto 50px auto;
-  }
 
   .disc__contenedor,
   .disc__contenedor2 {
@@ -39,9 +23,7 @@
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
-  .carrusel {
-    height: auto;
-  }
+
 
   .contenedor__imagenes {
     justify-content: center;
@@ -57,14 +39,7 @@
     margin: 10px;
   }
 
-  .video__individual {
-    width: 45%;
-    margin: 10px;
-  }
 
-  .video__individual--title {
-    padding: 10px;
-  }
 
   .disc__contenedor,
   .disc__contenedor2 {
@@ -78,25 +53,8 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .carrusel {
-    width: 100%;
-    height: auto;
-  }
 
-  .news {
-    padding: 2rem;
-    flex-direction: column;
-  }
 
-  .news__info {
-    padding-right: 0;
-  }
-
-  .news__img {
-    min-width: 100%;
-    max-width: 100%;
-    padding: 0;
-  }
 
   .buy-tickets .btn {
     width: 60%;
@@ -116,15 +74,6 @@
     margin: 10px;
   }
 
-  .video__individual {
-    width: 100%;
-    margin: 20px;
-  }
-
-  .video__individual--title {
-    padding: 20px;
-  }
-
   .disc__contenedor,
   .disc__contenedor2 {
     height: auto;
@@ -135,7 +84,6 @@
     padding: 0 15px;
   }
 
-  
   .store__contenedor {
     margin: auto;
     padding: 10px;
@@ -143,34 +91,34 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+  }
 
 
-.products-list {
-  display: flex;
-  margin: auto;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+  .products-list {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.products {
-  width: 100%;
-  background-color: $color1;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
+  .products {
+    width: 100%;
+    background-color: $color1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 
-.cart {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  background-color: $color7;
-}
+  .cart {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: $color7;
+  }
 
 
 
@@ -192,26 +140,6 @@
     padding-top: 10px;
   }
 
-  .carrusel {
-    padding: 20px;
-    width: 100%;
-    height: auto;
-  }
-
-  .news {
-    padding: 2rem;
-    flex-direction: column;
-  }
-
-  .news__info {
-    padding-right: 0;
-  }
-
-  .news__img {
-    min-width: 100%;
-    max-width: 100%;
-    padding: 0;
-  }
 
   .buy-tickets .btn {
     width: 80%;
@@ -224,29 +152,6 @@
   #table {
     width: 100%;
     font-size: 15px;
-  }
-
-  .gallery__contenedor {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .gallery__contenedor--individual:nth-child(8) {
-    grid-column: span 3;
-    grid-row: span 1;
-  }
-
-  .video__individual {
-    width: 100%;
-    margin: 20px;
-  }
-
-  .video__individual2 {
-    width: 100%;
-    margin: 10px;
-  }
-
-  .video__individual--title {
-    padding: 10px;
   }
 
   .disc__contenedor,
@@ -285,34 +190,34 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+  }
 
 
-.products-list {
-  display: flex;
-  margin: auto;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+  .products-list {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.products {
-  width: 100%;
-  background-color: $color1;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
+  .products {
+    width: 100%;
+    background-color: $color1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 
-.cart {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  background-color: $color7;
-}
+  .cart {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: $color7;
+  }
 
   .paymentContenedor {
     width: 100%;
@@ -334,39 +239,40 @@
   }
 
   .credit-info .owner,
-        .credit-info .CVV,
-        .credit-info #expiration-date,
-        .credit-info #credit_cards {
-            width: 100%;
-        }
-        .credit-info #credit_cards {
-            text-align: left;
-        }
+  .credit-info .CVV,
+  .credit-info #expiration-date,
+  .credit-info #credit_cards {
+    width: 100%;
+  }
 
-        .compraDeTickets__contenedor {
-          display: flex;
-          flex-wrap: wrap;
-          width: 100%;
-          height: 100vh;
-          justify-content: space-around;
-          padding: 30px;
-        }
-      
-        .estadio__contenedor {
-          width: 80%;
-          height: 60%;
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-          margin-bottom: 80px;
-      
-        }
-      
-        .infoTickets {
-          width: 100%;
-          height: 50%;
-        }
-        
+  .credit-info #credit_cards {
+    text-align: left;
+  }
+
+  .compraDeTickets__contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    padding: 30px;
+  }
+
+  .estadio__contenedor {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 80px;
+
+  }
+
+  .infoTickets {
+    width: 100%;
+    height: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 280px) and (max-width: 560px) {
@@ -382,30 +288,6 @@
   .subtitulo {
     font-size: 20px;
     padding-top: 10px;
-  }
-
-  .carrusel {
-    padding: 20px;
-    width: 100%;
-    height: auto;
-  }
-
-  .news {
-    padding: 2rem;
-    flex-direction: column;
-  }
-
-  .news__img {
-    display: none;
-  }
-
-  .news__info {
-    margin-top: -100px;
-    padding-right: 0;
-  }
-
-  .news__text {
-    text-align: center;
   }
 
   .buy-tickets .btn {
@@ -443,30 +325,6 @@
     font-size: 10px;
   }
 
-  .gallery__contenedor {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery__contenedor--individual:nth-child(n + 1) {
-    grid-column: span 1;
-    grid-row: span 1;
-  }
-
-  .video__individual {
-    width: 100%;
-    height: auto;
-    margin: 10px;
-  }
-
-  .video__individual2 {
-    width: 100%;
-    height: auto;
-    margin: 10px;
-  }
-
-  .video__individual--title {
-    padding: 10px;
-  }
 
   .disc__contenedor,
   .disc__contenedor2 {
@@ -497,7 +355,7 @@
     margin-top: 30px;
   }
 
-  
+
   .store__contenedor {
     margin: auto;
     padding: 10px;
@@ -505,32 +363,32 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+  }
 
 
-.products-list {
-  display: flex;
-  margin: auto;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+  .products-list {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-.products {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
+  .products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 
-.cart {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
+  .cart {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
 
   .paymentContenedor {
     width: 100%;
